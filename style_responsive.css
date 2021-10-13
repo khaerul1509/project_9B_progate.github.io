@@ -1,0 +1,48 @@
+@media(max-width:1000px){
+    .container{
+        width:100%;
+    }
+}
+@media(max-width: 890px){
+    .navbar-kanan{
+        width: 40%;
+    }
+    .navbar-kiri{
+        width: 40%;
+    }
+  .logo{
+    font-size:20px;
+    font-weight: bold;
+  }
+}
+@media(max-width: 770px){
+    .navbar-kanan{
+        width: 37%;
+    }
+    .navbar-kiri{
+        width: 35%;
+    }
+}
+@media(max-width: 769.9px){
+   .navbar-list{
+       display: none;
+   }
+   .logo{
+       float: left;
+       font-size: 50px;
+       margin-left: 20px;
+   }
+   .menu-toggle{
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        justify-content: space-between;
+}
+    .menu-toggle span{
+        display: block;
+        width: 28px;
+        height: 3px;
+        background-color:white;
+        border-radius: 3px;
+    }
+}
