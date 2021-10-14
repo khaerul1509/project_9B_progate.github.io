@@ -226,7 +226,7 @@
     top: 7px;
     left: 10px;
     position: relative;
-    currsor: pointer;
+    cursor: pointer;
   }
   .fixed-img{
     position: fixed;
@@ -235,7 +235,7 @@
   }
   @media (max-width: 1000px) {
     h1{
-      color: : blue;
+      color: blue;
     }
   }
   @media (max-width: 670px) {
