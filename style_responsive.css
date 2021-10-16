@@ -1,0 +1,222 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .navbar-kanan a {
+    padding: 0px 12px;
+  }
+  .navbar-kiri a {
+    padding: 0px 12px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .menu {
+    width: 33%;
+  }
+  .menu-icon p {
+    top: 65%;
+  }
+
+  .diskon-icon p {
+    top: 65%;
+  }
+
+  .contact-form {
+    margin-left: 10px;
+  }
+  .message {
+    margin-left: 10px;
+  }
+
+  img {
+    width: 180px;
+    height: 180px;
+    animation: ZoomIn 6s;
+  }
+
+  @keyframes ZoomIn {
+    from {
+      width: 0px;
+      height: 0px;
+    }
+    to {
+      width: 180px;
+      height: 180px;
+    }
+  }
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .contact-form {
+    margin-left: 10px;
+  }
+  .message {
+    margin-left: 10px;
+  }
+  .navbar-kanan a {
+    padding: 0px 0px;
+    font-size: 16.5px;
+  }
+  .navbar-kiri a {
+    padding: 0px 0px;
+    font-size: 16.5px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .menu {
+    width: 50%;
+  }
+
+  .menu-icon p {
+    top: 60%;
+  }
+
+  .diskon-icon p {
+    top: 60%;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    animation: ZoomIn 6s;
+  }
+
+  @keyframes ZoomIn {
+    from {
+      width: 0px;
+      height: 0px;
+    }
+    to {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+@media (min-width: 361px) and (max-width: 540px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar-kanan a {
+    display: none;
+  }
+  .navbar-kiri a {
+    display: none;
+  }
+
+  .top-wrapper h1 {
+    font-size: 18px;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .diskon {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .menu-icon p {
+    top: 75%;
+  }
+  .logo {
+    justify-content: left;
+    margin-left: 10px;
+  }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .message {
+    margin-left: 10px;
+  }
+
+  .diskon-icon p {
+    top: 75%;
+  }
+
+  img {
+    width: 220px;
+    height: 220px;
+    animation: ZoomIn 6s;
+  }
+
+  @keyframes ZoomIn {
+    from {
+      width: 0px;
+      height: 0px;
+    }
+    to {
+      width: 220px;
+      height: 220px;
+    }
+  }
+}
+@media (min-width: 280px) and (max-width: 360px) {
+  .container {
+    width: 100%;
+  }
+  .logo {
+    justify-content: left;
+    margin-left: 10px;
+  }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .message {
+    margin-left: 10px;
+  }
+  .navbar-kanan a {
+    display: none;
+  }
+  .navbar-kiri a {
+    display: none;
+  }
+
+  .top-wrapper h1 {
+    font-size: 18px;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .diskon {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .menu-icon p {
+    top: 75%;
+  }
+
+  .diskon-icon p {
+    top: 75%;
+  }
+
+  img {
+    width: 220px;
+    height: 220px;
+    animation: ZoomIn 6s;
+  }
+
+  @keyframes ZoomIn {
+    from {
+      width: 0px;
+      height: 0px;
+    }
+    to {
+      width: 220px;
+      height: 220px;
+    }
+  }
+}
