@@ -15,6 +15,13 @@
   .menu {
     width: 33%;
   }
+  .menu-icon p {
+    top: 70%;
+  }
+
+  .diskon-icon p {
+    top: 70%;
+  }
 
   .contact-form {
     margin-left: 10px;
