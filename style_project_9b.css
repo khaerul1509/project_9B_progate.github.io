@@ -1,10 +1,9 @@
+
 *{
     box-sizing: border-box;
 }
 body {
-    color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
     margin: 0 auto;
@@ -12,6 +11,11 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
 }
 
 .clear {
@@ -36,7 +40,6 @@ header {
 .logo{
     color: black;
     font-size: 40px;
-    align-items: center;
     display: flex;
     justify-content: center;
 }
@@ -75,9 +78,11 @@ header {
 .top-wrapper {
    padding: 180px 0 100px 0;
    background-image: url(https://cdn-2.tstatic.net/tribunsumselwiki/foto/bank/images/suasana-di-akaliko.jpg);
-   background-size: cover;
+   background-size: 100%;
    text-align: center;
    opacity: 0.7;
+   font-size: 1rem;
+   font-weight: bold;
 }
 
 .container {
@@ -122,4 +127,187 @@ header {
     opacity: 1;
 }
 
+.heading h2 {
+    font-weight: bold;
+    text-align: center;
+}
 
+.heading h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: burlywood;
+    cursor: pointer;
+    box-shadow: 0 7px rgb(122, 96, 61);
+    font-size: 15px;
+    text-align: center;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.message-wrapper img {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    animation: none;
+}
+
+.section-title {
+    border-bottom: 2px solid burlywood;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.menu-wrapper {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.diskon-wrapper {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+  
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+  
+.heading h2 {
+    font-weight: normal;
+}
+
+.menu {
+    float: left;
+    width: 25%;
+}
+
+.diskon {
+    float: left;
+    width: 33.33%;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    animation: ZoomIn 3s;
+}
+
+@keyframes ZoomIn {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        width: 220px;
+        height: 220px;
+    }
+}
+  
+.menu-icon {
+    position: relative;
+}
+
+.diskon-icon {
+    position: relative;
+}
+.menu-icon p {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    color: white;
+}
+
+.diskon-icon p {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+  
+.heading h3 {
+    font-weight: normal;
+}
+.btn-diskon span{
+    text-decoration: line-through;
+} 
+
+.fa {
+    margin-right: 5px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+
+.footer {
+    background-color:burlywood;
+    height: 250px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+    color: black;
+}
+  
+.footer-list {
+    float: right;
+}
+  
+.footer-list li {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.fade-in {
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
